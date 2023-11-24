@@ -17,7 +17,7 @@ involves determining the number of apples and oranges that fall within a specifi
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |     | 🏠  | 🏠  | 🏠  | 🏠  | 🏠  |     |     |     |     |
 
-❗ Keep in mind that the count you saw on the example segmenting the slots in the grid is only for visual representation, that number is not given in the problem ❗
+❗ Please note that the count displayed in the example, illustrating the segmentation of slots in the grid, is solely for visual representation. This numerical value is not provided as part of the given problem. ❗
 
 🌳 The apple tree is located at point 'a'.
 
@@ -49,7 +49,7 @@ involves determining the number of apples and oranges that fall within a specifi
 |     |     |     |     |     |     |     |     |     | 🌴  |
 |     |     |     |     |     | 🍊  |     |     |     | 🍊  |
 
-📏 When a fruit falls from its tree, it lands n units of distance from its tree of origin along the x-axis.
+📏 When a fruit falls from its tree, it lands at a distance of n units from its origin along the x-axis.
 
 ⬅️ A negative value of means the fruit fell n units to the tree's left.
 
@@ -57,7 +57,7 @@ involves determining the number of apples and oranges that fall within a specifi
 
 ➡️ And a positive value of means it falls n units to the tree's right.
 
-🧮 Your task is to count how many apples and oranges land inside the house (between 's' and 't').
+🧮 Your mission is to tally the number of apples and oranges that land within the confines of the house (between 's' and 't').
 
 🪃 This is the expected return: `[appleCount, orangeCount];
 `
@@ -66,7 +66,7 @@ involves determining the number of apples and oranges that fall within a specifi
 
 ### 1.- All apples and oranges fall within the house boundaries
 
-`const s = 3`
+`const s = 4`
 
 `const t = 8`
 
@@ -126,7 +126,7 @@ involves determining the number of apples and oranges that fall within a specifi
 
 `const apples = [3]`
 
-`const b = 1`
+`const b = 2`
 
 `const oranges = [4, 6, -1]`
 
